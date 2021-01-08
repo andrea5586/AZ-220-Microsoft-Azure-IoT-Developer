@@ -361,11 +361,11 @@ In this exercise, you are going to add an alert that triggers when 5 or more dev
 
 1. Take a moment to review the **Action group** area. 
 
-    Notice that no action group is selected. There is an option to **Select action group**. 
+    Notice that no action group is selected. There is an option to **Add action group**. 
 
     > **Note**: An action group is a collection of notification preferences defined by the owner of an Azure subscription. An action group name must be unique within the Resource Group is is associated with. Azure Monitor and Service Health alerts use action groups to notify users that an alert has been triggered. Various alerts may use the same action group or different action groups depending on the user's requirements. You may configure up to 2,000 action groups in a subscription. You can learn more about creating and managing Action Groups [here](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/action-groups).
 
-1. Under **Action group**, click **Select action group**.
+1. Under **Action group**, click **Add action group**.
 
     The **Select an action group to attach to this alert rule** pane is displayed. If there are existing Action Groups available within the selected subscription, they will be listed here. Notice that you can change the subscription and filter the list. In this lab, we will create a new action group.
 
